@@ -1,0 +1,27 @@
+.nav-item .nav-link {
+    color: black;
+}
+
+.nav-item .nav-link:hover {
+    color: #ff8c00;
+}
+
+.text-banner {
+    color: #352f2f;
+}
+
+.text-promo {
+    color: #ff8c00;
+}
+
+.text-promo:hover {
+    color: #2f4f4f;
+}
+
+.btn-pesan:hover {
+    background-color: aliceblue;
+}
+
+.domain {
+    background-color: #ff8c00;
+}
