@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light shadow-sm fixed-top" style="background-color: #F8F8FF">
+<nav class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">
     <img src="https://www.qwords.com/wp-content/themes/qwords/assets/images/icons/logo-qw-light.webp" class="" style="max-height: 48px;">
@@ -45,13 +45,13 @@
         </li>
 
         <li class="nav-item ms-3 me-1">
-              <a class="nav-link active fw-bold" href="#">
+              <a class="nav-link promo-text active fw-bold" href="#">
                 🎁 Promo
               </a>
             </li>
 
             <li class="nav-item ms-5 ">
-             <button class="btn rounded-pill py-1 px-4 fw-bold btn-outline-primary">Login</button> 
+             <button class="btn rounded-pill py-1 px-4 fw-bold btn-outline-light">Login</button> 
            </li>
        
       </ul>
@@ -59,3 +59,5 @@
     </div>
   </div>
 </nav>
+
+<script src="{{ asset('js/script.js') }}"></script>

@@ -1,22 +1,54 @@
+/* style navbar */
+
+.navbar {
+    background-color: rgba(251, 127, 80, 0.7);
+    transition: rgba(248, 200, 112, 0.5) 0.5s ease;
+}
+
+.navbar.scrolled {
+    background-color: rgba(251, 127, 80, 0.9);
+}
+
 .nav-item .nav-link {
     color: black;
 }
 
 .nav-item .nav-link:hover {
-    color: #ff8c00;
+    color: #fff;
 }
 
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+        transform: translateX(20%);
+    }
+    50% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.nav-item .nav-link.promo-text {
+    animation: slideIn 5s ease-in infinite;
+}
+
+/* end style navbar */
+
+/* jumbotron */
 .text-banner {
-    color: #352f2f;
+    color: rgba(255, 99, 71, 0.6);
 }
 
-.text-promo {
-    color: #ff8c00;
+.jumbotron {
+    text-align: center;
 }
 
-.text-promo:hover {
-    color: #2f4f4f;
+.text-container {
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
 }
+/* end jumbotron */
 
 .btn-pesan:hover {
     background-color: aliceblue;
