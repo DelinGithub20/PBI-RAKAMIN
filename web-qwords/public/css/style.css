@@ -6,7 +6,7 @@
 }
 
 .navbar.scrolled {
-    background-color: rgba(251, 127, 80, 0.9);
+    background-color: rgba(250, 128, 114, 0.9);
 }
 
 .nav-item .nav-link {
@@ -48,12 +48,59 @@
     margin: 0 auto;
     text-align: center;
 }
-/* end jumbotron */
 
 .btn-pesan:hover {
     background-color: aliceblue;
 }
+/* end jumbotron */
 
-.domain {
-    background-color: #ff8c00;
+/* style domain */
+.domain,
+.layanan {
+    background-color: #f08080;
 }
+
+.btn-cari:hover {
+    background-color: #87ceeb;
+}
+/* end style domain */
+
+/* style package */
+.package {
+    background-color: #f08080;
+}
+
+.text-package {
+    color: #add8e6;
+}
+
+.content-card .card-package,
+.card-layanan {
+    transition: 2px 2px #888 0.3s ease, transform 0.3s ease;
+    transform-origin: center bottom;
+}
+
+.content-card .card-package:hover {
+    box-shadow: 0 8px 16px rgba(63, 61, 61, 0.5);
+    transform: scale(1.05);
+    z-index: 1;
+}
+
+.text-price {
+    color: #f08080;
+}
+
+.btn-pesan {
+    background-color: #f08080;
+    color: whitesmoke;
+}
+
+.btn-pesan:hover {
+    background-color: #87ceeb;
+    color: #444242;
+}
+
+.icon-color {
+    color: #f08080;
+}
+/* end style package  */

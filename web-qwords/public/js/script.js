@@ -8,6 +8,3 @@ document.addEventListener("scroll", function () {
         navbar.classList.remove("scrolled");
     }
 });
-
-// let hiddenText = document.querySelector(".hidden-text");
-// hiddenText.classList.add("show");

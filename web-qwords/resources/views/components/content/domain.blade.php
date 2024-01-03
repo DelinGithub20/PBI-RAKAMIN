@@ -1,12 +1,12 @@
 <section class="domain">
 	<div class="container-lg">
-		<div class="w-50 mt-3 text-center mx-auto">
+		<div class="w-50  text-center mx-auto">
 			<div class="py-5 px-2">
-				<p class="fs-1 mt-3 mb-0 fw-bold">
+				<p class="fs-1 mt-3 mb-0 fw-bold text-light">
 					Cari Nama Domainmu
 				</p>
 
-				<p class="fs-6 mt-1 mb-0 text-white">
+				<p class="fs-6 mt-1 mb-0 text-light">
 					Nama Domain digunakan untuk mempermudah pengunjung menuju ke situs Anda. Pilih nama domain yang paling mencerminkan bisnis, produk, atau layanan Anda. 
 				</p>
 			</div>
@@ -25,14 +25,14 @@
    			 </select>
 				</div>
 				<div class="">
-					<button class="btn btn-warning rounded-pill btn-lg fw-bold px-5 mx-4">Cari</button>
+					<button class="btn btn-cari btn-light rounded-pill btn-lg fw-bold px-5 mx-4">Cari</button>
 				</div>
 			</div>
 
 			<div class="d-flex mx-auto text-center w-75 px-5">
 
 				<div class="border-end px-3 my-5 border-white">
-					<span class="bg-warning rounded px-3 py-1 fs-6 text-white fw-bold">
+					<span class="bg-light rounded px-3 py-1 fs-6 fw-bold">
 						.com
 					</span>
 					<p class="fs-4 fw-semibold mt-2 text-white">
@@ -41,7 +41,7 @@
 				</div>
 
 				<div class="border-end px-3 my-5 border-white">
-					<span class="bg-warning rounded px-3 py-1 fs-6 text-white fw-bold">
+					<span class="bg-light rounded px-3 py-1 fs-6 fw-bold">
 						.id
 					</span>
 					<p class="fs-4 fw-semibold mt-2 text-white">
@@ -49,7 +49,7 @@
 					</p>
 				</div>
 				<div class="border-end px-3 my-5 border-white">
-					<span class="bg-warning rounded px-3 py-1 fs-6 text-white fw-bold">
+					<span class="bg-light rounded px-3 py-1 fs-6 fw-bold">
 						.net
 					</span>
 					<p class="fs-4 fw-semibold mt-2 text-white">
