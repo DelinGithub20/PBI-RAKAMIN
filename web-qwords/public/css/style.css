@@ -56,7 +56,8 @@
 
 /* style domain */
 .domain,
-.layanan {
+.layanan,
+.solusi {
     background-color: #f08080;
 }
 
@@ -104,3 +105,17 @@
     color: #f08080;
 }
 /* end style package  */
+
+.card-image-container {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    max-width: 50%;
+    max-height: 50%;
+}
+
+.card-solusi {
+    border-radius: 10%;
+}
+
+/* end solusi  */

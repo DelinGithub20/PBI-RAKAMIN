@@ -24,6 +24,7 @@
       @include('components/content/domain')
       @include('components/content/package')
       @include('components/content/layanankami')
+      @include('components/content/solusi')
       @include('components/base/footer')
 
    </div>
