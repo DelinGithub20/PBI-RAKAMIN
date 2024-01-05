@@ -57,7 +57,9 @@
 /* style domain */
 .domain,
 .layanan,
-.solusi {
+.solusi,
+.komitmen,
+.buatwebsite {
     background-color: #f08080;
 }
 
@@ -91,12 +93,14 @@
     color: #f08080;
 }
 
-.btn-pesan {
+.btn-pesan,
+.btn-selengkapnya {
     background-color: #f08080;
     color: whitesmoke;
 }
 
-.btn-pesan:hover {
+.btn-pesan:hover,
+.btn-selengkapnya:hover {
     background-color: #87ceeb;
     color: #444242;
 }
@@ -119,3 +123,37 @@
 }
 
 /* end solusi  */
+
+/* komitmen */
+
+.card-image-komitmen {
+    top: 0;
+    left: 0;
+    max-width: 40%;
+    max-height: 40%;
+}
+
+.card-komitmen {
+    border-radius: 10%;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+/* end komitmen */
+
+/* buatwebsite */
+.container-buatwebsite {
+    padding: 5rem;
+}
+
+.card-bw {
+    border-radius: 10%;
+}
+
+.text-bw {
+    color: #f08080;
+}
+
+.gambar-partner {
+    width: 10rem;
+    margin: auto;
+}

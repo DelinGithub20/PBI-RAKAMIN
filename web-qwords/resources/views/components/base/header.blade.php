@@ -51,7 +51,7 @@
             </li>
 
             <li class="nav-item ms-5 ">
-             <button class="btn rounded-pill py-1 px-4 fw-bold btn-outline-light">Login</button> 
+             <button class="btn rounded-pill py-1 px-4 fw-bold btn-outline-light" id="loginModal">Login</button> 
            </li>
        
       </ul>
